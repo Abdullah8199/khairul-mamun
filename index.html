@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In Form</title>
+  <style>
+    .login-header{
+      display:flex;
+      justify-content:center;
+    }
+    .login-form{
+      display:flex;
+      flex-direction:column;
+      width:50%;
+      margin-top:10px;
+      
+    }
+    .login-form input{
+      margin-top:10px;
+     padding:10px 15px;
+    }
+
+    .login-form input[type="submit"]:hover{
+      background:red;
+      border:none;
+      color:#fff;
+      font-size:20px;
+      border-radius:20px;
+      background:green;
+      cursor:pointer;
+      transition:2s;
+    }
+    /* .login-form input:hover{
+      background:green;
+    } */
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="www.google.com">Home</a>
+    </nav>
+  </header>
+   <section class="login-header">
+    <form class="login-form">
+      <h2>Please Log In</h2>
+      <input type="email" name="" id="" placeholder="Your Email" requried>
+     <input type="password" name="" id="" placeholder="Your Password" requried>
+      <input type="submit" value="Log In">
+    </form>
+   </section>
+</body>
+</html>
